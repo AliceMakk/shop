@@ -34,7 +34,7 @@ class MainController {
 		$formatedProducts = $this->formatProducts($allProducts);
 		$cartTotal = $this->formatAmount($_SESSION['cartTotal'] ?? 0);
 		
-		$this->view->getProductView($formatedProducts, $cartTotal);
+		$this->view->getMainView($formatedProducts, $cartTotal);
 
 	}
 

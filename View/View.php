@@ -9,9 +9,9 @@ class View {
 	/**
 	 * Showing product list view
 	 */
-	function getProductView(array $products = [], $cartTotal = 0)
+	function getMainView(array $products = [], $cartTotal = 0)
 	{
-		include __DIR__ . '/ProductList.php';
+		include __DIR__ . '/Main.php';
 	}
 
 	/**
